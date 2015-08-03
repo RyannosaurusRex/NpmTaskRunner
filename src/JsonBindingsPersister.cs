@@ -1,7 +1,6 @@
-﻿using System.Linq;
-using AlfredTrx.Helpers;
+﻿using AlfredTrx.Helpers;
 
-namespace NpmTaskRunner
+namespace BroccoliTaskRunner
 {
     public class JsonBindingsPersister : IPersistTaskRunnerBindings
     {

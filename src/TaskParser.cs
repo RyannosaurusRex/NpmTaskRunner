@@ -2,7 +2,7 @@
 using System.IO;
 using Newtonsoft.Json.Linq;
 
-namespace NpmTaskRunner
+namespace BroccoliTaskRunner
 {
     class TaskParser
     {

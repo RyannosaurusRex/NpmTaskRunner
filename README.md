@@ -1,16 +1,16 @@
 ## Broccoli and Ember-CLI Task Runner extension
 
-Adds support for package.json's NPM scripts in Visual Studio 2015's
+Adds support for Broccoli in Visual Studio 2015's
 Task Runner Explorer.
 
 ### Execute scripts
 
-When scripts are specified, the Task Runner Explorer
-will show those scripts.
+When Broccoli is specified, the Task Runner Explorer
+will show those commands.
 
 ![Task list](art/task-list.png)
 
-Each script can be executed by double-clicking the task.
+Each command can be executed by double-clicking the task.
 
 ### Bindings
 

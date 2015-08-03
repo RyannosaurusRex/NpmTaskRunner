@@ -8,7 +8,7 @@ using System.Windows.Media.Imaging;
 using AlfredTrx.Helpers;
 using Microsoft.VisualStudio.TaskRunnerExplorer;
 
-namespace NpmTaskRunner
+namespace BroccoliTaskRunner
 {
     [TaskRunnerExport("Brocfile.js", "ember-cli-build.js")]
     class TaskRunnerProvider : ITaskRunner
@@ -17,7 +17,7 @@ namespace NpmTaskRunner
 
         public TaskRunnerProvider()
         {
-            _icon = new BitmapImage(new Uri(@"pack://application:,,,/NpmTaskRunner;component/Resources/npm.png"));
+            _icon = new BitmapImage(new Uri(@"pack://application:,,,/BroccoliTaskRunner;component/Resources/broccoli.png"));
         }
 
         public List<ITaskRunnerOption> Options

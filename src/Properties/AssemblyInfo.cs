@@ -1,12 +1,12 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Npm Scripts Task Runner")]
+[assembly: AssemblyTitle("Broccoli Task Runner")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Mads Kristensen")]
-[assembly: AssemblyProduct("Npm Scripts Task Runner")]
-[assembly: AssemblyCopyright("Mads Kristensen")]
+[assembly: AssemblyCompany("Ryan Hayes")]
+[assembly: AssemblyProduct("Broccoli Task Runner")]
+[assembly: AssemblyCopyright("Ryan Hayes")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
