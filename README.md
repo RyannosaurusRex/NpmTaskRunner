@@ -1,5 +1,7 @@
 ## Broccoli and Ember-CLI Task Runner extension
 
+[![Build status](https://ci.appveyor.com/api/projects/status/nv8it8f5j7bdsceb?svg=true)](https://ci.appveyor.com/project/RyannosaurusRex/broccolitaskrunner)
+
 Adds support for [Broccoli](https://github.com/broccolijs/broccoli) in Visual Studio 2015's
 Task Runner Explorer.
 
