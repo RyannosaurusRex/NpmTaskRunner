@@ -1,6 +1,6 @@
 ## Broccoli and Ember-CLI Task Runner extension
 
-Adds support for Broccoli in Visual Studio 2015's
+Adds support for [Broccoli](https://github.com/broccolijs/broccoli) in Visual Studio 2015's
 Task Runner Explorer.
 
 ### Execute scripts
