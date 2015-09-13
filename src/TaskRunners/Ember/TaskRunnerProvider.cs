@@ -7,10 +7,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using AlfredTrx.Helpers;
 using Microsoft.VisualStudio.TaskRunnerExplorer;
+using BroccoliTaskRunner;
 
-namespace BroccoliTaskRunner
+namespace TaskRunners.Ember
 {
-    [TaskRunnerExport("Brocfile.js", "ember-cli-build.js")]
+    [TaskRunnerExport("ember-cli-build.js")]
     class TaskRunnerProvider : ITaskRunner
     {
         private ImageSource _icon;
@@ -40,7 +41,7 @@ namespace BroccoliTaskRunner
 
         private ITaskRunnerNode LoadHierarchy(string configPath)
         {
-            ITaskRunnerNode root = new TaskRunnerNode("Broccoli Commands");
+            ITaskRunnerNode root = new TaskRunnerNode("Ember CLI Commands");
 
             string workingDirectory = Path.GetDirectoryName(configPath);
 
@@ -50,7 +51,7 @@ namespace BroccoliTaskRunner
                 return root;
 
             TaskRunnerNode tasks = new TaskRunnerNode("Commands");
-            tasks.Description = "Broccoli CLI commands.";
+            tasks.Description = "Ember CLI Commands.";
             root.Children.Add(tasks);
 
             foreach (var key in scripts.Keys.OrderBy(k => k))

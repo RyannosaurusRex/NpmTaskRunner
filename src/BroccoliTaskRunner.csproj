@@ -59,8 +59,10 @@
     <Compile Include="Helpers\VsTextViewTextUtil.cs" />
     <Compile Include="JsonBindingsPersister.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaskParser.cs" />
-    <Compile Include="TaskRunnerProvider.cs" />
+    <Compile Include="TaskRunners\Broccoli\TaskParser.cs" />
+    <Compile Include="TaskRunners\Broccoli\TaskRunnerProvider.cs" />
+    <Compile Include="TaskRunners\Ember\TaskParser.cs" />
+    <Compile Include="TaskRunners\Ember\TaskRunnerProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\LICENSE">
